@@ -6,6 +6,7 @@ public class Exercise1 {
 
     public static void main(String[] args) {
 //        String name = "Konstantins";
+//        System.out.println("Files.Files.Hello.Hello, my name is " + name);
 //        System.out.println("Hello, my name is " + name);
 
 //        int a = 10;
