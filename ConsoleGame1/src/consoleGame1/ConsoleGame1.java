@@ -14,7 +14,7 @@ public class ConsoleGame1 {
         boolean gameInProgress = true;
         while (gameInProgress) {
             int computerGuess = random.nextInt(minValue, maxValue+1);
-            System.out.println("Computer guess is: " + computerGuess + "\nIf number is too big, enter - 1, " +
+            System.out.println("Computer guess is: " + computerGuess + "\nIf number is too big enter - 1, " +
                     "too small - 2, same number - 0.");
             int userInput = scanner.nextInt();
             if (userInput==0) {
@@ -32,4 +32,3 @@ public class ConsoleGame1 {
         }
     }
 }
-
